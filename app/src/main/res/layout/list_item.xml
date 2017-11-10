@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <android.support.v7.widget.AppCompatCheckedTextView xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/expandedListItem"
+        android:layout_width="match_parent"
+        android:layout_height="?android:attr/listPreferredItemHeightSmall"
+        android:textAppearance="?android:attr/textAppearanceListItemSmall"
+        android:gravity="center_vertical"
+        android:checkMark="?android:attr/textCheckMark"
+        android:paddingLeft="?android:attr/listPreferredItemPaddingLeft"
+        android:textColor="#515151"
+        android:textSize="18dp"
+        android:paddingRight="?android:attr/listPreferredItemPaddingRight" />
+
+</LinearLayout>
